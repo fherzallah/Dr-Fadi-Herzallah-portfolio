@@ -35,8 +35,8 @@ export default function MainPublications() {
                         </div>
                         <br />
                         <div className="flex gap-5">
-                            <button className="border-2 rounded-xl border-black hover:text-white hover:bg-violet-600 py-1 px-3 duration-300">DOI</button>
-                            <button className="border-2 rounded-xl border-black hover:text-white hover:bg-violet-600 py-1 px-3 duration-300">Download</button>
+                            <button className="border-2 rounded-xl border-black hover:text-white hover:bg-violet-600 py-1 px-3 duration-300"><a href={pub.doi} target='_blank'>DOI</a></button>
+                            <button className="border-2 rounded-xl border-black hover:text-white hover:bg-violet-600 py-1 px-3 duration-300"><a href={pub.pdfUrl} target='_blank'>Download</a></button>
                             <button className="border-2 rounded-xl border-black hover:text-white hover:bg-violet-600 py-1 px-3 duration-300">Recommended Citation</button>
                         </div>
                         <br />
