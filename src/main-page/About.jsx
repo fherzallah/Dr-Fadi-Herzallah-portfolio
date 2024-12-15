@@ -32,7 +32,7 @@ export default function About() {
         <img
           src={avatar}
           alt="Dr. Fadi Herzallah"
-          className="w-72 h-72 border rounded-full"
+          className="w-60 h-60 border rounded-full"
         />
 
         <h2 className="font-sans top-10 font-bold text-center">
