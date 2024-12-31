@@ -27,31 +27,35 @@ export default function About() {
   }
 
   return (
-    <div className="flex mx-auto w-full px-28 pt-10 gap-80">
-      <div className="flex flex-col justify-center align-middle gap-5">
+    <div className="2xl:flex  lg:mx-auto xs:mx-0 xs:px-7 w-full lg:px-28  pt-10 gap-80 justify-center ">
+      <div className="flex flex-col 2xl:justify-center 2xl:align-middle gap-5 xs:align-top ">
+      
         <img
           src={avatar}
           alt="Dr. Fadi Herzallah"
-          className="w-60 h-60 border rounded-full"
+          className="aspect-square w-[230px] h-[230px] border rounded-full object-cover lg:mx-0 xs:mx-auto"
         />
+       
 
-        <h2 className="font-sans top-10 font-bold text-center">
+        <div className="flex flex-col gap-4 justify-center " >
+        <p className="font-sans top-10 font-bold xs:text-center lg:text-start ">
           Fadi A. T. Herzallah
-        </h2>
-        <h2 className="text-center -mt-3">د. فادي أحمد حرزالله</h2>
-        <div className="flex gap-4 justify-start align-middle">
+        </p>
+        <p className="xs:text-center lg:text-start -mt-3">د. فادي أحمد حرزالله</p>
+        </div>
+        <div className="flex gap-4 lg:justify-start align-middle xs:justify-center">
           <FaUniversity />
           <a href="https://ptuk.edu.ps/en/index.php">
             Palestine Technical University
           </a>
         </div>
-        <div className="flex gap-4 justify-start align-middle cursor-pointer">
+        <div className="flex gap-4 lg:justify-start align-middle cursor-pointer xs:justify-center">
           <MdEmail />
           <a target="_blank" href="">
             Email
           </a>
         </div>
-        <div className="flex gap-4 justify-start align-middle cursor-pointer">
+        <div className="flex gap-4 lg:justify-start align-middle cursor-pointer xs:justify-center">
           <SiGooglescholar />
           <a
             target="_blank"
@@ -60,13 +64,13 @@ export default function About() {
             Google Scholar
           </a>
         </div>
-        <div className="flex gap-4 justify-start align-middle cursor-pointer">
+        <div className="flex gap-4 lg:justify-start align-middle cursor-pointer xs:justify-center">
           <FaOrcid className="ai ai-orcid ai-fw icon-pad-right text-lime-400 my-auto" />
           <a target="_blank" href="https://orcid.org/0000-0001-8589-7950">
             ORCID
           </a>
         </div>
-        <div className="flex gap-4 justify-start align-middle cursor-pointer">
+        <div className="flex gap-4 lg:justify-start align-middle cursor-pointer xs:justify-center">
           <span className="text-white bg-black w-5">SC</span>
           <a
             target="_blank"
@@ -75,7 +79,7 @@ export default function About() {
             Scopus
           </a>
         </div>
-        <div className="flex gap-4 justify-start align-middle cursor-pointer">
+        <div className="flex gap-4 lg:justify-start align-middle cursor-pointer xs:justify-center">
           <FaGithub />
           <a target="_blank" href="https://github.com/academicpages">
             Github
@@ -83,7 +87,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className="flex flex-col align-middle w-2/3 py-20">
+      <div className="2xl:w-2/3 xs:w-full flex flex-col align-middle py-20 justify-center ">
         <h1 className="font-sans font-bold">SHORT BIO:</h1>
         <br />
         <p className="text-justify leading-relaxed max-w-3xl ">
