@@ -9,7 +9,7 @@ import { ImCancelCircle } from "react-icons/im";
 export default function NavBar (){
 
 
-    const [show,setShow] = useState(false);
+    const [show,setShow] = useState(true);
 
     function toggleShow(){
        setShow(!show)
