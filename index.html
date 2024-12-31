@@ -4,9 +4,21 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/Dr-Fadi-Herzallah-portfolio/assets/icon-aewS24O4.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript">
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
     <title>Dr. Fadi Herzallah</title>
-    <script type="module" crossorigin src="/Dr-Fadi-Herzallah-portfolio/assets/index-BhICvIqp.js"></script>
-    <link rel="stylesheet" crossorigin href="/Dr-Fadi-Herzallah-portfolio/assets/index-Bkvxl9Gg.css">
+    <script type="module" crossorigin src="/Dr-Fadi-Herzallah-portfolio/assets/index-DBmS7OhH.js"></script>
+    <link rel="stylesheet" crossorigin href="/Dr-Fadi-Herzallah-portfolio/assets/index-CGj5SxKo.css">
   </head>
   <body>
     <div id="root"></div>
