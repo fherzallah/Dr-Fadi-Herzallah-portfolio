@@ -13,7 +13,6 @@ export default function NavBar (){
 
     function toggleShow(){
        setShow(!show)
-       console.log(show)
     }
 
 

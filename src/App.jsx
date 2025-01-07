@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import NavBar from './main-page/NavBar';
 import AllPublications from './publications-page/AllPublications';
 import MainPage from './main-page/MainPage';
+import './index.css'
 
 const router = createBrowserRouter(
   [
