@@ -5,3 +5,13 @@
 * {
     box-sizing: border-box;
   }
+
+  html {
+    zoom: 1;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+  max-width: none;
+  margin: 0;
+}
