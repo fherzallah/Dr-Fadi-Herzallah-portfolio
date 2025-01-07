@@ -14,4 +14,15 @@
 body {
   max-width: none;
   margin: 0;
+  transform: scale(1);
+  transform-origin: top left;
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
