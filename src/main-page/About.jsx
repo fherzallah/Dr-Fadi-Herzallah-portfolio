@@ -27,7 +27,7 @@ export default function About() {
   }
 
   return (
-    <div className="2xl:flex  lg:mx-auto xs:mx-0 xs:px-7 w-full lg:px-28  pt-10 gap-80 justify-center ">
+    <div className="2xl:flex  lg:mx-auto xs:mx-0 xs:px-7 w-full lg:px-28  pt-10 gap-80 justify-center animate-slideIn ">
       <div className="flex flex-col 2xl:justify-center 2xl:align-middle gap-5 xs:align-top ">
       
         <img

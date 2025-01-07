@@ -13,7 +13,7 @@ export default {
         },
       },
       animation: {
-        slideIn: 'slideIn 0.85s ease-out',
+        slideIn: 'slideIn 0.65s ease-in',
       },
       screens: {
         xs: '200px', // Extra small screens

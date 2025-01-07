@@ -23,7 +23,7 @@ export default function MainPublications() {
     }, []);
 
     return (
-        <div className='flex mx-auto px-4 lg:pl-28  w-full pt-10 xs:gap-10 2xl:gap-80 lg:gap-28 2xl:flex-nowrap bg-slate-200 h-full flex-wrap'>
+        <div className='flex mx-auto px-4 lg:pl-28  w-full pt-10 xs:gap-10 2xl:gap-80 lg:gap-28 2xl:flex-nowrap bg-slate-200 h-full flex-wrap animate-slideIn'>
             <h1 className='text-4xl font-sans xs:mx-auto lg:mx-0'><strong>Publications</strong></h1>
 
             <div className="flex flex-col gap-10 pb-7 pt-3 xs:mx-auto lg:mx-0 xs:text-sm lg:text-xl">
